@@ -1,6 +1,6 @@
 import React from "react"
-import { Layout } from "../components/layout"
-import { Header } from "../components/header"
+import { Layout } from "../layouts/layout"
+import { Header } from "../layouts/header"
 
 export default function Home(): JSX.Element {
   return (
