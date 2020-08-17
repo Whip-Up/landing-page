@@ -1,12 +1,12 @@
 import React, { FunctionComponent } from "react"
-import { ComingSoon } from "../components/coming-soon"
+import { SobStory } from "../components/sob-story"
 
-export const AboveTheFold: FunctionComponent<unknown> = () => (
-  <section role="main">
-    <div className="m-auto flex-col justify-center">
-      <h1>Getting a meal from your kitchen to the table</h1>
-      <h2>The quickest way to find a recipe with the ingredients you own</h2>
-    </div>
-    <ComingSoon></ComingSoon>
+export const AboveTheFold: FunctionComponent<unknown> = props => (
+  <section role="main" className="flex-col justify-center items-center">
+    <h1 className="text-xl font-bold text-center md:w-1/2 md:mx-auto mb-40">
+      Getting a meal right from your kitchen to the table
+    </h1>
+    <SobStory></SobStory>
+    {props.children}
   </section>
 )
