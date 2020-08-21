@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react"
 
 export const SobStory: FunctionComponent<unknown> = () => (
-  <article className="text-lg font-light w-paragraph mx-auto">
+  <article className="text-lg font-light mx-40 lg:w-paragraph lg:mx-auto">
     <p className="text-justify mb-16">
       Ever bought a grocery bag full of produce to cook a dish and had little
       bits of leftover ingredients? Didn’t know what to do with them?

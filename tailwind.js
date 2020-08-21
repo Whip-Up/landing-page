@@ -419,6 +419,7 @@ module.exports = {
       full: "100%",
       paragraph: "30em",
       screen: "100vw",
+      content: "fit-content",
     }),
     zIndex: {
       auto: "auto",
