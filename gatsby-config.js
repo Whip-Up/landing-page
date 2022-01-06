@@ -9,6 +9,7 @@ const tailwindcss = require("tailwindcss")
 module.exports = {
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-typescript",
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

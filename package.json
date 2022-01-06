@@ -1,9 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "whip-up-landing-page",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "MIT",
+  "description": "Whip Up's Landing page powered by Gatsby",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -11,6 +9,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "lint": "tsc --noEmit",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -19,11 +18,22 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
     "autoprefixer": "^9.8.0",
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "gatsby-plugin-postcss": "^2.3.2",
+    "gatsby-plugin-typescript": "^2.4.6",
     "postcss-cli": "^7.1.1",
-    "prettier": "2.0.5",
-    "tailwindcss": "^1.4.6"
+    "prettier": "^2.0.5",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.4.6",
+    "typescript": "^3.9.5"
   },
   "repository": {
     "type": "git",
